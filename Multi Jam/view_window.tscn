@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://ijtfu7je86u"]
+
+[ext_resource type="Script" path="res://view_window.gd" id="1_xarlw"]
+
+[node name="ViewWindow" type="Window"]
+position = Vector2i(0, 36)
+size = Vector2i(500, 500)
+script = ExtResource("1_xarlw")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+zoom = Vector2(2, 2)
+editor_draw_screen = false
